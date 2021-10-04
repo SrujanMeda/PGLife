@@ -7,6 +7,7 @@ body {
     color: #373737;
     font-size: 16px;
     position: relative;
+    background-image: url(img/bg.png);
 }
 
 h1,
