@@ -1,6 +1,103 @@
-.Search{
-    padding: 20px;
-  margin-top: 8px;
-  font-size: 17px;
-  border: none;
-}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  }
+  .block-parallax-1 {
+  overflow: hidden;
+  position: relative;
+  height: 67%;
+  }
+  .block-parallax-1 .parallax-bg {
+  background-attachment: fixed;
+  background-image: url('../img/bg.png');
+  background-size: 100% 100%;
+  background-position: absolute;
+  background-repeat: no-repeat;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  min-width: 1170px;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  background-size: contain;
+  }
+  .block-parallax-1 .md-box {
+  padding: 200px 0 200px;
+  background: rgba(0, 0, 0, 0.5);
+  position: relative;
+  height: 100%;
+  text-align: center;
+  }
+  .block-parallax-1 .md-box h1 {
+  color: #fff;
+  }
+  .block-parallax-2 .md-box {
+  padding: 75px 0 200px;
+  background: rgba(255, 255, 255, 0);
+  position: relative;
+  height: 100%;
+  text-align: center;
+  }
+  
+  
+  
+  h2 {
+  color: rgb(0, 0, 0);
+  text-align: center; 
+  padding: 25px 0;
+  margin: 0;
+  }
+  .Search{
+      padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+  }
+  .SearchBar{
+      display: inline-block;
+  }
+  button {
+    padding: 10px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #6b757f;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    margin-left: -0.2rem;
+    color: white;
+  }
+  div.first .dot {
+    height: 175px;
+    width: 175px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    display: inline-block;
+    box-shadow:3px 3px 20px 2px #888888;  
+  
+  }
+  .first{
+  position:relative;
+  }
+  
+  .MajorCities div.first img {
+      width: 75%;
+      height: 75%; 
+      background: rgba(0,0,0,0.3);
+      display: inline-block;
+      left: 0;
+      z-index: 1;
+      background-color:rgba(255, 228, 181, 0);
+      position:absolute;
+      top:20px;
+      left: 20px;
+  }
+  .MajorCities {
+    display: flex;
+    justify-content: space-between;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 10px 0;
+    position:relative;
+  }
